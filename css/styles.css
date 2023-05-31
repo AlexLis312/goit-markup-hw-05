@@ -104,16 +104,6 @@
   display: block;
   fill: var(--accent-color);
 }
-/* .tel-icon:hover,
-.tel-icon:focus {
-  display: block;
-  fill: var(--accent-color);
-}
-.mail-icon:hover,
-.mail-icon:focus {
-  display: block;
-  fill: var(--accent-color);
-} */
 .mail-icon {
   display: flex;
   justify-content: center;
@@ -159,6 +149,9 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+}
+.social-foot-list {
+  justify-content: center;
 }
 .foot {
   align-items: baseline;
