@@ -582,6 +582,11 @@ address {
   color: var(--prime-white-color);
   background: rgba(33, 150, 243, 0.9);
 }
+
+.works-link:hover .img-text,
+.works-link:focus .img-text {
+  opacity: 1;
+}
 .works-link:hover,
 .works-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
