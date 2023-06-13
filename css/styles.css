@@ -68,7 +68,7 @@
   background-color: var(--prime-white-color);
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-link {
   justify-content: center;
@@ -531,7 +531,7 @@ address {
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-first {
   padding: 6px 25px;
